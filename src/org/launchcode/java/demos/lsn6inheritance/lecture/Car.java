@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.lsn6inheritance;
+package org.launchcode.java.demos.lsn6inheritance.lecture;
 // Make, Model, Year
 public class Car {
     private String make;
