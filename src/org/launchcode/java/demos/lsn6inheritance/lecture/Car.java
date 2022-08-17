@@ -22,4 +22,12 @@ public class Car {
     public Integer getYear() {
         return year;
     }
+
+    @Override
+    public String toString() {
+        return "My car is a " +
+                this.year + " " +
+                this.make + " " +
+                this.model + ".\n";
+    }
 }

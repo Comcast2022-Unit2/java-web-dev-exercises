@@ -18,4 +18,14 @@ public class Truck extends Car {
     public double getTowingCapacity() {
         return towingCapacity;
     }
+
+    @Override
+    public String toString() {
+        return "My car is a " +
+                this.getYear() + " " +
+                this.getMake() + " " +
+                this.getModel() + ".\n" +
+                "Bed size: " + this.getBedSize() + "ft\n" +
+                "Towing Cap: " + this.getTowingCapacity() + " lbs";
+    }
 }
